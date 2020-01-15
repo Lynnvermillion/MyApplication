@@ -19,17 +19,17 @@ public class ClothesApp extends AppCompatActivity {
     }
 
     public void CoatsJackets (View v){
-        Intent cj = new Intent(this, HoodiesSweatShirts.class);
+        Intent cj = new Intent(this, CoatsJackets.class);
         startActivity(cj);
     }
 
     public void Shirts (View v){
-        Intent s = new Intent(this, HoodiesSweatShirts.class);
+        Intent s = new Intent(this, Shirts.class);
         startActivity(s);
     }
 
     public void Trousers (View v){
-        Intent t = new Intent(this, HoodiesSweatShirts.class);
+        Intent t = new Intent(this, Trousers.class);
         startActivity(t);
     }
 

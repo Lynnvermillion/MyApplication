@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HoodiesSweatShirts"></activity>
+        <activity android:name=".HoodiesSweatShirts" />
+        <activity android:name=".CoatsJackets" />
+        <activity android:name=".Shirts" />
+        <activity android:name=".Trousers" />
+        <activity android:name=".Shoes" />
+        <activity android:name=".Accessories"></activity>
     </application>
 
 </manifest>
