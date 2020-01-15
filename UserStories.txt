@@ -1,0 +1,26 @@
+User stories
+
+General User
+As a user, I want to check the weather for the next day to check the app suggestions for what to wear.
+As a user, I want to be able to store my clothes, so the app knows what to suggest.
+As a user, I want to be able to store my outfit so I can pick an outfit that I like manually.
+As a user I want to remove any clothes/outfits that I no longer have or that I do not like, the app should not recommend me the removed clothes/outfits.
+As a user, I want to be able to store my preferences so that the app will know better what to suggest.
+As a user I want to be able to select the occasion so the app can recommend appropriate clothes.
+As a user, I want to be able to categorize my clothing into casual, posh etc. so the app can recommend outfits based on the occasion. 
+As a user I want to share my suggested outfit so my friends can see it.
+As a user I want to get notifications of the weather daily so it can be aware all the time.
+As a user I should be able to select specific weather and it should show me couple destinations with that weather.
+
+Trip organizer
+As a trip organizer, I want to check the weather on the day of travel so the organizer can advice the members going on the trip on what to wear. 
+As a trip organizer, I want to make a group so the group members can see what the app’s suggestions.
+
+Tourist 
+As a tourist, I want to automatically receive weather updates and clothing suggestions as I travel around United Kingdom so that I can get a heads up on the weather and save time from planning my outfit wear.
+
+Teenager
+As a teenager, I want to get good suggestions on possible outfits to wear so that it saves me time from having to plan on what to wear.
+
+Businessman
+As a businessman I need to go to Italy, I want to be able to check the weather in Italy on day of arrival and get clothing. recommendations.
