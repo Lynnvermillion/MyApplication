@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ma18uus.myapplication.ClothesApp">
+
+    <TextView
+        android:id="@+id/Clothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.016"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/HoodiesAndSweatshirts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hoodies and Sweatshirts"
+        android:textAllCaps="false"
+        android:onClick="HoodiesSweatShirts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/CoatsAndJackets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coats and Jackets"
+        android:textAllCaps="false"
+        android:onClick="CoatsJackets"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="339dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Shirts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shirts"
+        android:textAllCaps="false"
+        android:onClick="Shirts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="280dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Trousers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trousers"
+        android:textAllCaps="false"
+        android:onClick="Trousers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="223dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.996" />
+
+    <Button
+        android:id="@+id/Shoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoes"
+        android:textAllCaps="false"
+        android:onClick="Shoes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="165dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/Accessories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accessories"
+        android:textAllCaps="false"
+        android:onClick="Accessories"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="107dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+</android.support.constraint.ConstraintLayout>
