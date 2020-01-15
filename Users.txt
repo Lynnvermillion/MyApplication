@@ -1,0 +1,6 @@
+General User
+  Trip organizer
+  Tourist
+  Parent
+  Teenager
+  Developer

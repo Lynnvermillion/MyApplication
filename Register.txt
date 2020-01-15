@@ -1,0 +1,65 @@
+Register
+
+Group meetings
+
+Date: 28/11/2019
+Attendance:
+* Utpal
+* Sonam
+* Dimitri
+* Linardo
+Topic of discussion: User stories
+Detail: We created 15 – 20 user stories to get possible functionalities of the app.
+
+Date: 04/12/2019
+Attendance:
+* Utpal
+* Sonam
+* Dimitri
+* Linardo
+* Madelyn
+* Imad
+Topic of discussion: User stories and Data Structure
+Detail: …
+
+Date: 04/01/2020
+Attendance:
+* Utpal
+* Sonam
+* Dimitri
+* Madelyn
+Topic of discussion: Poker Planning
+Detail: …
+
+Tutor meetings
+
+Date: 29/11/2019
+Attendance:
+* Utpal
+* Sonam
+* Dimitri
+* Linardo
+* Imad
+Topic of discussion: User stories and start to think about data structures (SQL)
+Detail: Went over user stories and how to improve them. Data Structure for app to access for its functionalities.
+
+Date: 06/12/2019
+Attendance:
+* Utpal
+* Sonam
+* Dimitri
+* Linardo
+* Imad
+* Madelynn
+Topic of discussion: Poker planning
+Detail: categorize user stories for difficulty in fibonacci numbers(1,2,3,5,8). Start to think about how we will tackle user stories. We decided to work on easy(1, 2 or 3 difficulty) user stories in pairs, 3 in total. 
+
+Date: 06/12/2019
+Attendance:
+* Utpal
+* Sonam
+* Dimitri
+* Imad
+* Madelynn
+Topic of discussion: Poker planning, Use Case diagram, Sprint 1
+Detail: Finished the planning poker and made a first draft of the Use Case diagram. Decided on which User stories to do in Sprint 1 and started development.
