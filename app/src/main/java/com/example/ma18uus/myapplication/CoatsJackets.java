@@ -16,7 +16,7 @@ public class CoatsJackets extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_coats_jackets);
-        btn=(Button)findViewById(R.id.button1);
+        btn=(Button)findViewById(R.id.AddCoatsJackets);
         btn.setOnClickListener(new OnClickListener() {
 
             public void onClick(View v) {
