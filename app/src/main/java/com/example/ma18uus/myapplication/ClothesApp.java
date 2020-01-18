@@ -34,12 +34,18 @@ public class ClothesApp extends AppCompatActivity {
     }
 
     public void Shoes (View v){
-        Intent sh = new Intent(this, HoodiesSweatShirts.class);
+        Intent sh = new Intent(this, Shoes.class);
         startActivity(sh);
     }
 
     public void Accessories (View v){
-        Intent a = new Intent(this, HoodiesSweatShirts.class);
+        Intent a = new Intent(this, Accessories.class);
         startActivity(a);
     }
+
+    public void weatherView(View v){
+        Intent w = new Intent(this, weatherView.class);
+        startActivity(w);
+    }
+
 }

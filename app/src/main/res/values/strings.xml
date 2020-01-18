@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="add_trousers">Add Trousers</string>
+    <string name="add_shoes">Add Shoes</string>
+    <string name="add_coats_shirts">Add Coats/Shirts</string>
+    <string name="add_hoodies_sweatshirts">Add Hoodies/SweatShirts</string>
+    <string name="add_coats_jackets">Add Coats/Jackets</string>
+    <string name="add_accessories">Add Accessories</string>
+    <string name="weather_info">Weather Info</string>
+    <string name="accessories">Accessories</string>
+    <string name="shoes">Shoes</string>
+    <string name="trousers">Trousers</string>
+    <string name="hoodies_and_sweatshirts">Hoodies and Sweatshirts</string>
+    <string name="coats_and_jackets">Coats and Jackets</string>
+    <string name="clothes">Clothes</string>
+    <string name="shirts">Shirts</string>
 </resources>
