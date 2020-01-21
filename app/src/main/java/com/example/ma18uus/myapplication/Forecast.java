@@ -45,7 +45,7 @@ public class Forecast extends AppCompatActivity {
                     // finish on location processing
                 }
             }
-        })
+        });
     }
     protected void ChooseLocationClick (View v) {
         //changes layout to the google maps view, allows user to select a lat,long which will be used in the weather api http request
