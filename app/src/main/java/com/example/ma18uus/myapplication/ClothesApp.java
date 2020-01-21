@@ -1,9 +1,10 @@
 package com.example.ma18uus.myapplication;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ClothesApp extends AppCompatActivity {
 
@@ -11,6 +12,10 @@ public class ClothesApp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clothes_app);
+    }
+    public void Menu (View v){
+        Intent hs = new Intent(this, HoodiesSweatShirts.class);
+        startActivity(hs);
     }
 
     public void HoodiesSweatShirts (View v){
