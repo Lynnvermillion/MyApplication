@@ -54,7 +54,8 @@ Attendance:
 Topic of discussion: Poker planning
 Detail: categorize user stories for difficulty in fibonacci numbers(1,2,3,5,8). Start to think about how we will tackle user stories. We decided to work on easy(1, 2 or 3 difficulty) user stories in pairs, 3 in total. 
 
-Date: 06/12/2019
+
+Date: 15/01/2019
 Attendance:
 * Utpal
 * Sonam
