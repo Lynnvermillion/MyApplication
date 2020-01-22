@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ma18uus.imagesandtext.MainActivity">
+
+
+    <EditText
+        android:id="@+id/Clothestxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/Weathertxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Clothestxt"
+        android:layout_alignStart="@+id/Clothestxt"
+        android:layout_below="@+id/Clothestxt"
+        android:layout_marginTop="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/Prefrencetxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Weathertxt"
+        android:layout_alignLeft="@+id/Weathertxt"
+        android:layout_alignStart="@+id/Weathertxt" />
+
+    <EditText
+        android:id="@+id/Tagtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Prefrencetxt"
+        android:layout_alignStart="@+id/Prefrencetxt"
+        android:layout_below="@+id/Prefrencetxt"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignTop="@+id/Choosebtn"
+        android:layout_alignLeft="@+id/Tagtxt"
+        android:layout_alignStart="@+id/Tagtxt" />
+
+    <Button
+        android:id="@+id/Addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_above="@+id/Listbtn"
+        android:layout_alignLeft="@+id/Listbtn"
+        android:layout_alignStart="@+id/Listbtn"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/Listbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIST"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/Tagtxt"
+        android:layout_toEndOf="@+id/Tagtxt"
+        android:layout_marginBottom="19dp" />
+
+    <Button
+        android:id="@+id/Choosebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:text="Image"
+        android:layout_alignBaseline="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Addbtn"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2" />
+</RelativeLayout>
