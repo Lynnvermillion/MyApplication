@@ -65,17 +65,9 @@ public class weatherView extends AppCompatActivity {
        // weatherTask.parseXML();
     }
 
-    private class weatherTask extends AsyncTask<Void, Void, Void>{
-
-
+    private class weatherTask extends AsyncTask<Void, Void, String> { // has result now
         @Override
-        protected Void doInBackground(Void... voids) {
-            parseXML();
-            return null;
-        }
-
-        private void parseXML(){
-
+        protected String doInBackground(Void... voids) {
 
             XmlPullParserFactory parserFactory;
             try {
@@ -86,7 +78,7 @@ public class weatherView extends AppCompatActivity {
                     parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
                     parser.setInput(is, null);
 
-                    processParsing(parser);
+                    return processParsing(parser);
 
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -94,10 +86,10 @@ public class weatherView extends AppCompatActivity {
             } catch (XmlPullParserException e) {
                 e.printStackTrace();
             }
-
+            return null;
         }
 
-        private void processParsing(XmlPullParser parser) throws IOException, XmlPullParserException{
+        private String processParsing(XmlPullParser parser) throws IOException, XmlPullParserException{
 
             ArrayList<WeatherConditions> weather = new ArrayList<>();
             int eventType = parser.getEventType();
@@ -122,13 +114,13 @@ public class weatherView extends AppCompatActivity {
                                 currentWeather.wind_mph = parser.nextText();
                             }else if ("wind_kph".equals(sName)){
                                 currentWeather.wind_kph = parser.nextText();
-                            }else if ("celsius".equals(sName)){
+                            }else if ("temp_c".equals(sName)){
                                 currentWeather.celsius = parser.nextText();
-                            }else if ("feelsCelsius".equals(sName)){
+                            }else if ("feelslike_c".equals(sName)){
                                 currentWeather.feelsCelsius = parser.nextText();
-                            }else if ("fahrenheit".equals(sName)){
+                            }else if ("temp_f".equals(sName)){
                                 currentWeather.fahrenheit = parser.nextText();
-                            }else if ("feelsFahrenheit".equals(sName)){
+                            }else if ("feelslike_f".equals(sName)){
                                 currentWeather.feelsFahrenheit = parser.nextText();
                             }else if ("humidity".equals(sName)){
                                 currentWeather.humidity = parser.nextText();
@@ -142,10 +134,10 @@ public class weatherView extends AppCompatActivity {
                 eventType = parser.next();
             }
 
-            printWeather(weather);
+            return printWeather(weather);
         }
 
-        private void printWeather(ArrayList<WeatherConditions> weather){
+        private String printWeather(ArrayList<WeatherConditions> weather){
 
             StringBuilder builder = new StringBuilder();
 
@@ -156,9 +148,15 @@ public class weatherView extends AppCompatActivity {
 
             }
 
-            txt.setText(builder.toString());
+            return builder.toString();
         }
 
+
+        /// THIS METHOD ADDED
+        @Override
+        protected void onPostExecute(String result) {
+            txt.setText(result);
+        }
     }
 
 }
